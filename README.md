@@ -27,11 +27,18 @@ This all goes into your home folder in the structure on here. File structure sho
 |       |-- .bashrc_startup
 |       `-- LS_COLORS
 `-- README.md
+
+# If you want to use the alacritty.yml it goes here
+~
+|-- .config
+|   `-- alacritty
+|       `-- alacritty.yml
 ```
 
 ## Files Included
 
 #### .bashrc
+_~/.bashrc_
 The main file that the bash shell looks for. Should be saved to your home folder.
 ```shell
 ~/
@@ -61,6 +68,7 @@ done
 ```
 
 #### .bashrc_startup
+_~/.config/bashrc/.bashrc\_startup_
 Displays the splash/welcome (turtle[cowsay]/neofetch) info and sets up LS_COLORS
 
 For the splash screen to work you need to install cowsay, fortune, and neofetch.
@@ -75,21 +83,35 @@ Note: if any of these are not installed it won't show, but will not error. It ju
 For LS_COLORS to setup, the LS_COLORS file needs to be in place.
 
 #### LS_COLORS
+_~/.config/bashrc/LS\_COLORS_
 The LS_COLORS file I use, pulled from github, link in credits
 
 #### .bashrc_prompt
+_~/.config/bashrc/.bashrc\_prompt_
 The customization of the prompt that's so nice. Read it over, it's heavily commented
 
 #### .bashrc_shortcuts
+_~/.config/bashrc/.bashrc\_shortcuts_
 A whole lot of useful aliases and functions. Read them over comment out what you don't want or learn them ;)
 
 ## How it Looks
 Here are a few screen shots _(font and color shades are terminal dependant)_:
 
+#### Welcome/Splash Screen
 ![Welcome/Splash](docs/static/Welcome-Splash_Screen.png)
+_Turtle love!_
+
+#### SSH/Failed Command
 ![SSH/Failed Command](docs/static/Ssh-Failed_Command.png)
+
+#### Git Implementation/Fullscreen terminal
 ![Full Git/Fullscreen](docs/static/Fullscreen-Git.png)
+_<3 Alacritty_
+
+#### Just the Desktop/Conky
 ![Just Desktop/Conky](docs/static/Just_Desktop.png)
+_Let me know if anyone wants my conky config_
+
 
 ## Credits
 I used quite a few different sources to build my custom bashrc setup. I've modified quite a bit from where I pulled from. Feel free to fork, use, and do what you like with this. Give credit to sources and myself.
