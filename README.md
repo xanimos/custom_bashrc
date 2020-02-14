@@ -131,3 +131,6 @@ I used quite a few different sources to build my custom bashrc setup. I've modif
 
 #### Wallpaper
 * [Dragon](https://www.pling.com/s/Artwork/p/1359055)
+
+#### Conky
+* [Conky](https://github.com/xanimos/custom-conky)
