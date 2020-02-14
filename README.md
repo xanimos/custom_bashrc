@@ -38,7 +38,6 @@ This all goes into your home folder in the structure on here. File structure sho
 ## Files Included
 
 #### .bashrc
-_~/.bashrc_
 The main file that the bash shell looks for. Should be saved to your home folder.
 ```shell
 ~/
@@ -68,7 +67,6 @@ done
 ```
 
 #### .bashrc_startup
-_~/.config/bashrc/.bashrc\_startup_
 Displays the splash/welcome (turtle[cowsay]/neofetch) info and sets up LS_COLORS
 
 For the splash screen to work you need to install cowsay, fortune, and neofetch.
@@ -83,15 +81,12 @@ Note: if any of these are not installed it won't show, but will not error. It ju
 For LS_COLORS to setup, the LS_COLORS file needs to be in place.
 
 #### LS_COLORS
-_~/.config/bashrc/LS\_COLORS_
 The LS_COLORS file I use, pulled from github, link in credits
 
 #### .bashrc_prompt
-_~/.config/bashrc/.bashrc\_prompt_
 The customization of the prompt that's so nice. Read it over, it's heavily commented
 
 #### .bashrc_shortcuts
-_~/.config/bashrc/.bashrc\_shortcuts_
 A whole lot of useful aliases and functions. Read them over comment out what you don't want or learn them ;)
 
 ## How it Looks
