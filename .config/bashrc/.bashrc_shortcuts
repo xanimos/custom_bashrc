@@ -16,7 +16,7 @@ alias dls='cd ~/Downloads'
 alias downloads='cd ~/Downloads'
 alias torrents='cd ~/Torrents'
 #alias videos='cd ~/Videos'
-alias code='cd ~/Coding'
+alias coding='cd ~/Coding'
 alias webs='cd ~/Coding/Websites'
 alias www='cd /var/www/html'
 
